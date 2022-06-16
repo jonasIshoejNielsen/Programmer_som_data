@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_11_Jonas_Markus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="MicroSMLpublic\bin2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MicroSMLpublic\MsmlVM\msmlmachine.c" />
+    <None Include="MicroSMLpublic\MsmlVM\MsmlVM.vcxproj" />
+    <None Include="MicroSMLpublic\MsmlVM\MsmlVM.vcxproj.filters" />
+    <None Include="MicroSMLpublic\MsmlVM\MsmlVM.vcxproj.user" />
+    <None Include="MicroSMLpublic\MsmlVM\utils_unix.c" />
+    <None Include="MicroSMLpublic\MsmlVM\utils_win.c" />
+    <None Include="MicroSMLpublic\bin\FSharp.Core.dll" />
+    <None Include="MicroSMLpublic\bin\fslex.exe" />
+    <None Include="MicroSMLpublic\bin\FsLexYacc.Runtime.dll" />
+    <None Include="MicroSMLpublic\bin\FsLexYacc.targets" />
+    <None Include="MicroSMLpublic\bin\fsyacc.exe" />
+    <Content Include="MicroSMLpublic\bin\FsLexYacc.Runtime.xml" />
+    <None Include="MicroSMLpublic\build.bat" />
+    <None Include="MicroSMLpublic\run.bat" />
+    <Compile Include="MicroSMLpublic\Absyn.fs" />
+    <Compile Include="MicroSMLpublic\Comp.fs" />
+    <Compile Include="MicroSMLpublic\Contcomp.fs" />
+    <Compile Include="MicroSMLpublic\FunLex.fs" />
+    <Compile Include="MicroSMLpublic\FunPar.fs" />
+    <Compile Include="MicroSMLpublic\FunPar.fsi" />
+    <Compile Include="MicroSMLpublic\Machine.fs" />
+    <Compile Include="MicroSMLpublic\MicroSMLC.fs" />
+    <Compile Include="MicroSMLpublic\ParseTypeAndRun.fs" />
+    <Compile Include="MicroSMLpublic\TypeInference.fs" />
+    <Compile Include="MicroSMLpublic\HigherFun.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MicroSMLpublic\README.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MicroSMLpublic\ex01.out" />
+    <None Include="MicroSMLpublic\ex01.sml" />
+    <None Include="MicroSMLpublic\ex02.out" />
+    <None Include="MicroSMLpublic\ex02.sml" />
+    <None Include="MicroSMLpublic\ex03.out" />
+    <None Include="MicroSMLpublic\ex03.sml" />
+    <None Include="MicroSMLpublic\ex04.out" />
+    <None Include="MicroSMLpublic\ex04.sml" />
+    <None Include="MicroSMLpublic\ex05.out" />
+    <None Include="MicroSMLpublic\ex05.sml" />
+    <None Include="MicroSMLpublic\ex06.sml" />
+    <None Include="MicroSMLpublic\ex07.out" />
+    <None Include="MicroSMLpublic\ex07.sml" />
+    <None Include="MicroSMLpublic\ex08.out" />
+    <None Include="MicroSMLpublic\ex08.sml" />
+    <None Include="MicroSMLpublic\ex09.out" />
+    <None Include="MicroSMLpublic\ex09.sml" />
+    <None Include="MicroSMLpublic\ex10.sml" />
+    <None Include="MicroSMLpublic\ex11.out" />
+    <None Include="MicroSMLpublic\ex11.sml" />
+    <None Include="MicroSMLpublic\ex12.out" />
+    <None Include="MicroSMLpublic\ex12.sml" />
+    <None Include="MicroSMLpublic\exn01.out" />
+    <None Include="MicroSMLpublic\exn01.sml" />
+    <None Include="MicroSMLpublic\exn02.out" />
+    <None Include="MicroSMLpublic\exn02.sml" />
+    <None Include="MicroSMLpublic\exn03.out" />
+    <None Include="MicroSMLpublic\exn03.sml" />
+    <None Include="MicroSMLpublic\exn04.out" />
+    <None Include="MicroSMLpublic\exn04.sml" />
+    <None Include="MicroSMLpublic\exn05.sml" />
+    <None Include="MicroSMLpublic\exn06.out" />
+    <None Include="MicroSMLpublic\exn06.sml" />
+    <None Include="MicroSMLpublic\FunLex.fsl" />
+    <None Include="MicroSMLpublic\FunPar.fsy" />
+    <None Include="MicroSMLpublic\list.out" />
+    <None Include="MicroSMLpublic\list.sml" />
+    <None Include="MicroSMLpublic\microsmlc.exe" />
+    <None Include="MicroSMLpublic\queens.fsx" />
+    <None Include="MicroSMLpublic\queens.out" />
+    <None Include="MicroSMLpublic\queens.sml" />
+    <None Include="MicroSMLpublic\test.out" />
+    <None Include="MicroSMLpublic\test.sh" />
+    <None Include="MicroSMLpublic\test.sml" />
+    <None Include="MicroSMLpublic\testgc.out" />
+    <None Include="MicroSMLpublic\testgc.sml" />
+  </ItemGroup>
+
+</Project>

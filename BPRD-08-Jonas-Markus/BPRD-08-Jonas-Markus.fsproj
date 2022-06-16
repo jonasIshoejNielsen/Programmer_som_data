@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_08_Jonas_Markus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="listc\utils_unix.c" />
+    <None Include="listc\utils_win.c" />
+    <None Include="listc\listmachine.c" />
+    <Compile Include="listc\Absyn.fs" />
+    <Compile Include="listc\CLex.fs" />
+    <Compile Include="listc\Comp.fs" />
+    <Compile Include="listc\CPar.fs" />
+    <Compile Include="listc\CPar.fsi" />
+    <Compile Include="listc\ListCC.fs" />
+    <Compile Include="listc\Machine.fs" />
+    <Compile Include="listc\Parse.fs" />
+    <Compile Include="listc\ParseAndComp.fs" />
+    <Content Include="listc\README.TXT" />
+    <None Include="listc\CircularQueue.class" />
+    <None Include="listc\CircularQueue.java" />
+    <None Include="listc\CLex.fsl" />
+    <None Include="listc\CPar.fsy" />
+    <None Include="listc\ex11.out" />
+    <None Include="listc\ex30.lc" />
+    <None Include="listc\ex30.out" />
+    <None Include="listc\ex31.lc" />
+    <None Include="listc\ex31.out" />
+    <None Include="listc\ex32.lc" />
+    <None Include="listc\ex32.out" />
+    <None Include="listc\ex33.lc" />
+    <None Include="listc\ex33.out" />
+    <None Include="listc\ex34.lc" />
+    <None Include="listc\ex34.out" />
+    <None Include="listc\ex35.lc" />
+    <None Include="listc\ex35.out" />
+    <None Include="listc\ex36.lc" />
+    <None Include="listc\ex36.out" />
+    <None Include="listc\exGC01.lc" />
+    <None Include="listc\exGC01.out" />
+    <None Include="listc\listcc.exe" />
+    <None Include="listc\listmachine" />
+    <None Include="listc\prog0" />
+    <None Include="listc\prog1" />
+    <None Include="listc\resurrection.cs" />
+    <None Include="listc\resurrection.exe" />
+    <None Include="listc\StringConcatSpeed.class" />
+    <None Include="listc\StringConcatSpeed.java" />
+    <None Include="listc\Timer.class" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>

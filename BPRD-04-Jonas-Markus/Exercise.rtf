@@ -1,0 +1,100 @@
+6.1
+Is the result of the third one as expected?
+the result is 7.
+the let x = 77 doesn't change the closure so it is the same as the first function.
+
+
+Result of the last: 
+let add x = let f y = x+y in f end in add 2 end
+We get a closure because y is a free variable so it can't evaluate and instead build a closure.
+The closure we get are:
+  Closure
+    ("f","y",Prim ("+",Var "x",Var "y"),
+     [("x", Int 2);
+      ("add",
+       Closure
+         ("add","x",Letfun ("f","y",Prim ("+",Var "x",Var "y"),Var "f"),[]))])
+
+outer closure is the function f that have environement x=2 
+and add = closure of function add with parameter x with the expression of letfun y with empty environment
+
+
+
+
+6.5
+(1)
+let f x = 1 in f f end
+	val it : string = "int"
+
+
+
+let f g = g g in f end
+	error circular
+	guess g has type a'
+	because we apply g to g then g must have type 'a -->'a
+	which leads to 'a-->'a-->a'-->.... 
+
+
+let f x = let g y = y in g false end in f 42 end
+	val it : string = "bool"
+
+
+let f x = let g y = if true then y else x in g false end in f 42 end
+	type error: bool and int
+	x is bound in enclosing scope to int so since y and x must have same type (p7)
+	so when y is set to bool, x and y can't have same type
+	(type parameter that is used in enclosing scope can't be generalized)
+
+let f x = let g y = if true then y else x in g false end in f true end
+	val it : string = "bool"
+
+
+
+(2)
+bool -> bool
+	let f x = if x then true else false in f end
+
+int -> int
+	let f x = x+1 in f end
+
+int -> (int -> int)
+	let f x =
+		let f2 x2 = x2 + 1 + x in f2 end
+	in f end
+
+'a -> ('b -> 'a)
+	let f x =
+		let f2 x2 = x in f2 end
+	in f end
+
+'a -> ('b -> 'b)
+	let f x =
+		let f2 x2 = x2 in f2 end
+	in f end
+
+
+(’a -> ’b) -> ((’b -> ’c) -> (’a -> ’c))
+	let f1 x1 = 
+		let f2 x2 = 
+			let f3 x3 = 
+				x2 (x1 x3)
+			in f3 end
+		in f2 end
+	in f1 end
+
+	
+
+'a -> 'b
+	let f x = f x in f end
+
+'a
+	let f x = f x in f 2 end
+
+
+	
+
+        
+
+
+
+

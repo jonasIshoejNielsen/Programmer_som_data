@@ -1,0 +1,108 @@
+(i)
+
+add:
+takes the 2 top values from stack. add them together and place result on stack
+(s[sp - 1] = Tag(Untag(s[sp - 1]) + Untag(s[sp])); sp--; break;)
+untag value of sp -1 and value of sp. --> add them --> set value onto stack--> decrement sp --> break
+
+
+CSTI i:
+put constant i onto the top of the stack.
+(s[sp + 1] = Tag(p[pc++]); sp++; break;)
+tag(p[pc++]) = get next instruction i and tag its value.
+--> save onto sp + 1 in stack
+--> increment stack pointer
+--> break
+
+NIL:
+load a nil onto the top of the stack.
+Differnece with CSTI 0 is that nil is a heap representation of null and for CSTI 0 then 0 is tagged meaning (((0)<<1)|1).
+(s[sp+1] = 0; sp++; break;)
+set sp + 1 = 0
+--> increment stack pointer
+--> break
+
+
+IFZERO a
+Remove top element and test if it is zero or nil, if so go to address a.
+(
+ word v = s[sp--];
+ pc = (IsInt(v) ? Untag(v) == 0 : v == 0) ? p[pc] : pc + 1;
+)
+word v becomes top element in stack --> decrement stack pointer
+--> if the word is an int then untag it and test if equal 0 else it assumes it test if it is nil / 0.
+--> set program counter to p[pc] if not 0 or nil else go to next instruction (pc+1) 
+
+
+
+CONS:
+takes the 2 top elments v2 and v1 and create a cons cell p (v2, v1) in heap and add reference to stack.
+(
+      word* p = allocate(CONSTAG, 2, s, sp);
+      p[1] = (word)s[sp - 1];
+      p[2] = (word)s[sp];
+      s[sp - 1] = (word)p;
+      sp--;
+)
+p is a reference to a word and set equal allocate(CONSTAG, 2, s, sp)
+--> car in p become stack pointer -1
+--> cdr in p become stack pointer
+--> add p to stack
+--> remove unneded element.
+
+
+CAR:
+Takes a reference to a cons cell(v1, v2) and add value v1 to stack.
+(
+      word* p = (word*)s[sp];
+      if (p == 0) {
+	printf("Cannot take car of null\n"); return -1;
+      }
+      s[sp] = (word)(p[1]);
+)
+get cons cell p from stack at stack pointer
+--> if nil print cannot be null and return -1
+--> else load first word onto stack at stack pointer
+
+
+SETCAR:
+takes a value and a reference to a cons cell (v1, v2) and set v1 = the value. add nothing to stack.
+(
+      word v = (word)s[sp--];
+      word* p = (word*)s[sp];
+      p[1] = v;
+)
+get cons cell v from stack at stack pointer -1 
+--> get reference to cons cell p from stack at stack pointer
+--> set p's first word equal v
+
+
+
+
+(ii)
+#define Length(hdr)   (((hdr)>>2)&0x003FFFFF)
+ shift to get away from gg
+ --> and with 0x003FFFFF to set all ts to 0
+
+
+
+#define Color(hdr)    ((hdr)&3)
+ set ttttttttnnnnnnnnnnnnnnnnnnnnnn to 0 and gg to gg
+
+#define Paint(hdr, color)  (((hdr)&(~3))|(color))
+ (hdr)&(~3) set gg to 00
+ -> set gg to color 
+
+
+
+(iii)
+only allocate in CONS. 
+the interaction between the mutator and the garbage collector is that the mutator calls allocate as described int (iv).
+
+(iv)
+collect only called in allocate on the first iteration of the do-while loop and if free == 0.
+
+
+
+
+

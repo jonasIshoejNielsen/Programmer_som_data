@@ -1,0 +1,55 @@
+1)
+./MsmlVM/msmlmachineex09.out
+4
+Result value: 4
+
+2)
+microsmlc.exe -opt -verbose -eval ex09.sml
+Result type: int
+
+3)
+microsmlc.exe -opt -verbose -eval ex09.sml
+Program with tailcalls:
+fun f x = if (x < 0) then g_tail 4 else f_tail (x - 1)
+and g x = x
+begin
+  print(f 2)
+end
+
+g_tail, f_tail   both are end of the if statement and end of function f.
+
+
+4)
+microsmlc.exe -opt -verbose -eval ex09.sml
+Program with types:
+fun f x = if (x:int < 0:int):bool then g:(int -> int)_tail 4:int:int else f:(int -> int)_tail (x:int - 1:int):int:int
+and g x = x:int
+begin
+  print(f:(int -> int) 2:int:int):int
+end
+Result type: int
+
+f:(int -> int)
+g:(int -> int)
+
+
+5)
+microsmlc.exe -eval ex09.sml
+- Elapsed 41ms
+
+./MsmlVM/msmlmachineex09.out
+- Used 0 cpu milli-seconds
+
+6)
+with -opt
+- 82 instructions
+
+without 
+- 89 instructions	//7 more
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_05_Jonas_Markus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="MicroC\Exercise7.2.1.c" />
+    <None Include="MicroC\Exercise7.2.2.c" />
+    <None Include="MicroC\Exercise7.2.3.c" />
+    <None Include="MicroC\build.bat" />
+    <None Include="MicroC\run.bat" />
+    <None Include="MicroC\bin\FSharp.Core.dll" />
+    <None Include="MicroC\bin\fslex.exe" />
+    <None Include="MicroC\bin\FsLexYacc.Runtime.dll" />
+    <None Include="MicroC\bin\FsLexYacc.targets" />
+    <None Include="MicroC\bin\fsyacc.exe" />
+    <Content Include="MicroC\bin\FsLexYacc.Runtime.xml" />
+    <None Include="MicroC\obj\fsac.cache" />
+    <Compile Include="MicroC\Absyn.fs" />
+    <Compile Include="MicroC\CLex.fs" />
+    <Compile Include="MicroC\Comp.fs" />
+    <Compile Include="MicroC\Contcomp.fs" />
+    <Compile Include="MicroC\CPar.fs" />
+    <Compile Include="MicroC\CPar.fsi" />
+    <Compile Include="MicroC\Interp.fs" />
+    <Compile Include="MicroC\Machine.fs" />
+    <Compile Include="MicroC\MicroCC.fs" />
+    <Compile Include="MicroC\Parse.fs" />
+    <Compile Include="MicroC\ParseAndComp.fs" />
+    <Compile Include="MicroC\ParseAndContcomp.fs" />
+    <Compile Include="MicroC\ParseAndRun.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MicroC\grammar.txt" />
+    <Content Include="MicroC\README.TXT" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MicroC\a.out" />
+    <None Include="MicroC\bar" />
+    <None Include="MicroC\CLex.fsl" />
+    <None Include="MicroC\CPar.exe" />
+    <None Include="MicroC\CPar.fsy" />
+    <None Include="MicroC\ex1.c" />
+    <None Include="MicroC\ex1.out" />
+    <None Include="MicroC\ex10.c" />
+    <None Include="MicroC\ex10.out" />
+    <None Include="MicroC\ex11.c" />
+    <None Include="MicroC\ex11.out" />
+    <None Include="MicroC\ex12.c" />
+    <None Include="MicroC\ex12.out" />
+    <None Include="MicroC\ex12notailcall.out" />
+    <None Include="MicroC\ex12tailcall.out" />
+    <None Include="MicroC\ex13.c" />
+    <None Include="MicroC\ex13.out" />
+    <None Include="MicroC\ex14.c" />
+    <None Include="MicroC\ex15.c" />
+    <None Include="MicroC\ex16.c" />
+    <None Include="MicroC\ex17.c" />
+    <None Include="MicroC\ex18.c" />
+    <None Include="MicroC\ex19.c" />
+    <None Include="MicroC\ex19.out" />
+    <None Include="MicroC\ex2.c" />
+    <None Include="MicroC\ex2.out" />
+    <None Include="MicroC\ex20.c" />
+    <None Include="MicroC\ex21.c" />
+    <None Include="MicroC\ex21.out" />
+    <None Include="MicroC\ex22.c" />
+    <None Include="MicroC\ex22.out" />
+    <None Include="MicroC\ex23.c" />
+    <None Include="MicroC\ex23.out" />
+    <None Include="MicroC\ex24.c" />
+    <None Include="MicroC\ex25.c" />
+    <None Include="MicroC\ex25.code" />
+    <None Include="MicroC\ex25.out" />
+    <None Include="MicroC\ex26.c" />
+    <None Include="MicroC\ex26.out" />
+    <None Include="MicroC\ex3.c" />
+    <None Include="MicroC\ex3.out" />
+    <None Include="MicroC\ex4.c" />
+    <None Include="MicroC\ex4.out" />
+    <None Include="MicroC\ex5.c" />
+    <None Include="MicroC\ex5.out" />
+    <None Include="MicroC\ex6.c" />
+    <None Include="MicroC\ex6.out" />
+    <None Include="MicroC\ex7.c" />
+    <None Include="MicroC\ex8.c" />
+    <None Include="MicroC\ex8.out" />
+    <None Include="MicroC\ex9.c" />
+    <None Include="MicroC\ex9.out" />
+    <None Include="MicroC\FSharp.Core.dll" />
+    <None Include="MicroC\machine" />
+    <None Include="MicroC\machine.c" />
+    <None Include="MicroC\Machine.class" />
+    <None Include="MicroC\Machine.java" />
+    <None Include="MicroC\Machinetrace.class" />
+    <None Include="MicroC\microcc.exe" />
+    <None Include="MicroC\out" />
+    <None Include="MicroC\prog0" />
+    <None Include="MicroC\prog1" />
+    <None Include="MicroC\testing.c" />
+    <None Include="MicroC\wrapUpEx01.c" />
+    <None Include="MicroC\wrapUpEx01.exe" />
+    <None Include="MicroC\wrapUpEx01.out" />
+  </ItemGroup>
+
+</Project>

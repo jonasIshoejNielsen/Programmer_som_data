@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprdJOIN\\bprd-JOIN\\BPRD-04-Jonas-Markus\\BPRD-04-Jonas-Markus.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprdJOIN\\bprd-JOIN\\BPRD-04-Jonas-Markus\\BPRD-04-Jonas-Markus.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprdJOIN\\bprd-JOIN\\BPRD-04-Jonas-Markus\\BPRD-04-Jonas-Markus.fsproj",
+        "projectName": "BPRD-04-Jonas-Markus",
+        "projectPath": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprdJOIN\\bprd-JOIN\\BPRD-04-Jonas-Markus\\BPRD-04-Jonas-Markus.fsproj",
+        "packagesPath": "C:\\Users\\join\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprdJOIN\\bprd-JOIN\\BPRD-04-Jonas-Markus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\join\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

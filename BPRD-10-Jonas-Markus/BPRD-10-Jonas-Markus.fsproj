@@ -1,0 +1,111 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_10_Jonas_Markus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="listc\bin\FsLexYacc.Runtime.xml" />
+    <None Include="listc\bin\FSharp.Core.dll" />
+    <None Include="listc\bin\fslex.exe" />
+    <None Include="listc\bin\FsLexYacc.Runtime.dll" />
+    <None Include="listc\bin\FsLexYacc.targets" />
+    <None Include="listc\bin\fsyacc.exe" />
+    <Compile Include="listc\Absyn.fs" />
+    <Compile Include="listc\CLex.fs" />
+    <Compile Include="listc\Comp.fs" />
+    <Compile Include="listc\CPar.fs" />
+    <Compile Include="listc\CPar.fsi" />
+    <Compile Include="listc\Interp.fs" />
+    <Compile Include="listc\Machine.fs" />
+    <Compile Include="listc\MicroCC.fs" />
+    <Compile Include="listc\Parse.fs" />
+    <Compile Include="listc\Contcomp.fs" />
+    <Compile Include="listc\ParseAndComp.fs" />
+    <Compile Include="listc\ParseAndContcomp.fs" />
+    <Compile Include="listc\ParseAndRun.fs" />
+    <Content Include="listc\grammar.txt" />
+    <Content Include="listc\README.TXT" />
+    <None Include="listc\a.out" />
+    <None Include="listc\bar" />
+    <None Include="listc\build.bat" />
+    <None Include="listc\CLex.fsl" />
+    <None Include="listc\CPar.exe" />
+    <None Include="listc\CPar.fsy" />
+    <None Include="listc\ex1.c" />
+    <None Include="listc\ex1.out" />
+    <None Include="listc\ex10.c" />
+    <None Include="listc\ex10.out" />
+    <None Include="listc\ex11.c" />
+    <None Include="listc\ex11.out" />
+    <None Include="listc\ex12.c" />
+    <None Include="listc\ex12.out" />
+    <None Include="listc\ex12notailcall.out" />
+    <None Include="listc\ex12tailcall.out" />
+    <None Include="listc\ex13.c" />
+    <None Include="listc\ex13.out" />
+    <None Include="listc\ex14.c" />
+    <None Include="listc\ex15.c" />
+    <None Include="listc\ex16.c" />
+    <None Include="listc\ex17.c" />
+    <None Include="listc\ex18.c" />
+    <None Include="listc\ex19.c" />
+    <None Include="listc\ex19.out" />
+    <None Include="listc\ex2.c" />
+    <None Include="listc\ex2.out" />
+    <None Include="listc\ex20.c" />
+    <None Include="listc\ex21.c" />
+    <None Include="listc\ex21.out" />
+    <None Include="listc\ex22.c" />
+    <None Include="listc\ex22.out" />
+    <None Include="listc\ex23.c" />
+    <None Include="listc\ex23.out" />
+    <None Include="listc\ex24.c" />
+    <None Include="listc\ex25.c" />
+    <None Include="listc\ex25.code" />
+    <None Include="listc\ex25.out" />
+    <None Include="listc\ex26.c" />
+    <None Include="listc\ex26.out" />
+    <None Include="listc\ex3.c" />
+    <None Include="listc\ex3.out" />
+    <None Include="listc\ex4.c" />
+    <None Include="listc\ex4.out" />
+    <None Include="listc\ex5.c" />
+    <None Include="listc\ex5.out" />
+    <None Include="listc\ex6.c" />
+    <None Include="listc\ex6.out" />
+    <None Include="listc\ex7.c" />
+    <None Include="listc\ex8.c" />
+    <None Include="listc\ex8.out" />
+    <None Include="listc\ex9.c" />
+    <None Include="listc\ex9.out" />
+    <None Include="listc\Exercise7.2.1.c" />
+    <None Include="listc\Exercise7.2.2.c" />
+    <None Include="listc\Exercise7.2.3.c" />
+    <None Include="listc\Exercise7.3.1.c" />
+    <None Include="listc\Exercise7.3.2.c" />
+    <None Include="listc\Exercise7.3.3.c" />
+    <None Include="listc\Exercise7.3.c" />
+    <None Include="listc\Exercise7.5.1.c" />
+    <None Include="listc\Exercise7.5.2.c" />
+    <None Include="listc\Exercise7.5.3.c" />
+    <None Include="listc\FSharp.Core.dll" />
+    <None Include="listc\machine" />
+    <None Include="listc\machine.c" />
+    <None Include="listc\Machine.class" />
+    <None Include="listc\Machine.java" />
+    <None Include="listc\Machinetrace.class" />
+    <None Include="listc\microcc.exe" />
+    <None Include="listc\out" />
+    <None Include="listc\prog0" />
+    <None Include="listc\prog1" />
+    <None Include="listc\run.bat" />
+    <None Include="listc\testing.c" />
+    <None Include="listc\wrapUpEx01.c" />
+    <None Include="listc\wrapUpEx01.exe" />
+    <None Include="listc\wrapUpEx01.out" />
+  </ItemGroup>
+
+</Project>

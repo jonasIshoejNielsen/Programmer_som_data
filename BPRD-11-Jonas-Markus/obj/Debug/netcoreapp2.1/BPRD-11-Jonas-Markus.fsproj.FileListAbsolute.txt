@@ -1,0 +1,8 @@
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\bin\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.deps.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\bin\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.runtimeconfig.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\bin\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.runtimeconfig.dev.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\bin\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.dll
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\obj\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.fsprojAssemblyReference.cache
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\obj\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.fsproj.CoreCompileInputs.cache
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\obj\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.AssemblyInfoInputs.cache
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-11-Jonas-Markus\obj\Debug\netcoreapp2.1\BPRD-11-Jonas-Markus.AssemblyInfo.fs

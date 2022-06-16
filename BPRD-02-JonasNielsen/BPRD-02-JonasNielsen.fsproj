@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_02_JonasNielsen</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Expr\bin\FsLexYacc.Runtime.xml" />
+    <None Include="Expr\bin\FSharp.Core.dll" />
+    <None Include="Expr\bin\fslex.exe" />
+    <None Include="Expr\bin\FsLexYacc.Runtime.dll" />
+    <None Include="Expr\bin\FsLexYacc.targets" />
+    <None Include="Expr\bin\fsyacc.exe" />
+    <None Include="Expr\run.bat" />
+    <None Include="Expr\build.bat" />
+    <None Include="Expr\ExprLex.fsl" />
+    <None Include="Expr\ExprPar.fsy" />
+    <None Include="Expr\ExprPar.fsyacc.output" />
+    <Compile Include="Expr\Absyn.fs" />
+    <Compile Include="Expr\Expr.fs" />
+    <Compile Include="Expr\ExprLex.fs" />
+    <Compile Include="Expr\ExprPar.fs" />
+    <Compile Include="Expr\ExprPar.fsi" />
+    <Compile Include="Expr\Parse.fs" />
+    <Content Include="Expr\README.txt" />
+    <None Include="BPRD-02-JonasNielsen.zip" />
+    <None Include="Exercises.docx" />
+    <None Include="Exercises.pdf" />
+  </ItemGroup>
+
+</Project>

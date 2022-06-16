@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BPRD_03_JonasNielsen</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Fun - Exercise 4.3, 4.4, 4.5\bin\FsLexYacc.Runtime.xml" />
+    <Content Include="Fun - Exercise 4.3, 4.4, 4.5\grammar.txt" />
+    <Content Include="Fun - Exercise 4.3, 4.4, 4.5\README.TXT" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\bin\FSharp.Core.dll" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\bin\fslex.exe" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\bin\FsLexYacc.Runtime.dll" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\bin\FsLexYacc.targets" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\bin\fsyacc.exe" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\build.bat" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\clean.bat" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\FunLex.fsl" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\FunPar.fsy" />
+    <None Include="Fun - Exercise 4.3, 4.4, 4.5\run.bat" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\Absyn.fs" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\Fun.fs" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\FunLex.fs" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\FunPar.fs" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\FunPar.fsi" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\Parse.fs" />
+    <Compile Include="Fun - Exercise 4.3, 4.4, 4.5\ParseAndRun.fs" />
+    <Content Include="Fun - Exercise 4.1, 4.2\bin\FsLexYacc.Runtime.xml" />
+    <None Include="Fun - Exercise 4.1, 4.2\bin\FSharp.Core.dll" />
+    <None Include="Fun - Exercise 4.1, 4.2\bin\fslex.exe" />
+    <None Include="Fun - Exercise 4.1, 4.2\bin\FsLexYacc.Runtime.dll" />
+    <None Include="Fun - Exercise 4.1, 4.2\bin\FsLexYacc.targets" />
+    <None Include="Fun - Exercise 4.1, 4.2\bin\fsyacc.exe" />
+    <None Include="Fun - Exercise 4.1, 4.2\build.bat" />
+    <None Include="Fun - Exercise 4.1, 4.2\clean.bat" />
+    <None Include="Fun - Exercise 4.1, 4.2\run.bat" />
+    <Content Include="Fun - Exercise 4.1, 4.2\grammar.txt" />
+    <Content Include="Fun - Exercise 4.1, 4.2\README.TXT" />
+    <None Include="Fun - Exercise 4.1, 4.2\FunLex.fsl" />
+    <None Include="Fun - Exercise 4.1, 4.2\FunPar.fsy" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\Absyn.fs" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\Fun.fs" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\FunLex.fs" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\FunPar.fs" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\FunPar.fsi" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\Parse.fs" />
+    <Compile Include="Fun - Exercise 4.1, 4.2\ParseAndRun.fs" />
+    <None Include="Exercise.docx" />
+  </ItemGroup>
+
+</Project>

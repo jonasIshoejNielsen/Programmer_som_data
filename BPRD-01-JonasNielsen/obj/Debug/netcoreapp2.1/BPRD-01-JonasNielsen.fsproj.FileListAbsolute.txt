@@ -1,0 +1,10 @@
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\bin\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.deps.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\bin\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.runtimeconfig.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\bin\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.runtimeconfig.dev.json
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\bin\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.dll
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\bin\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.pdb
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\obj\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.fsprojAssemblyReference.cache
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\obj\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.AssemblyInfoInputs.cache
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\obj\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.AssemblyInfo.fs
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\obj\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.dll
+C:\Users\join\Google Drive\itu\Semester 5 Autum 2019\(BPRD) Programmer som data\Opgaver\bprdJOIN\bprd-JOIN\BPRD-01-JonasNielsen\obj\Debug\netcoreapp2.1\BPRD-01-JonasNielsen.pdb

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprd-JOIN\\bprd-JOIN\\bprd-JOIN.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprd-JOIN\\bprd-JOIN\\bprd-JOIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprd-JOIN\\bprd-JOIN\\bprd-JOIN.csproj",
+        "projectName": "bprd-JOIN",
+        "projectPath": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprd-JOIN\\bprd-JOIN\\bprd-JOIN.csproj",
+        "packagesPath": "C:\\Users\\join\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\join\\Google Drive\\itu\\Semester 5 Autum 2019\\(BPRD) Programmer som data\\Opgaver\\bprd-JOIN\\bprd-JOIN\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\join\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

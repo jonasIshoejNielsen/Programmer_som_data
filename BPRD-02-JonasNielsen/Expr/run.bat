@@ -1,0 +1,1 @@
+fsi -r bin\FsLexYacc.Runtime.dll Absyn.fs ExprPar.fs ExprLex.fs Expr.fs Parse.fs
